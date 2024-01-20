@@ -420,7 +420,7 @@ header.sticky .navbar li a:hover{
     border-bottom: 2px solid #fb911f;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991px) and (min-width: 200px) {
 header,.header.sticky{
         position: 10px 20px;
     }

@@ -23,6 +23,15 @@ header{
     align-items: center;
     transition: 0.5s;
 }
+@media (max-width: 1700px) and (min-width: 200px) {
+    header,.header.sticky{
+            position: 10px 20px;
+        }
+
+
+        .btn2 {
+            display: none;
+        }
 
 .logo{
     color: #fff;
@@ -63,6 +72,7 @@ header .navbar li a:hover{
     color: #fb911f;
     border-bottom: 2px solid #fb911f;
 }
+ 
 
 
 .banniere{
@@ -168,7 +178,8 @@ section{
 }
 
 .menu{
-    margin-top: -100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .menu .contenu{
@@ -211,14 +222,13 @@ section{
     text-align: center;
     font-weight: 300px;
     color: #111;
-
 }
 .menu .contenu .box .text h3{
     font-weight: 400;
 }
 
 .expert{
-    margin-top: -100px;
+    margin-top: 10px;
 }
 .expert .contenu{
     display: flex;
@@ -226,6 +236,7 @@ section{
     justify-content: center;
     margin-top: 40px;
 }
+.lorem1 
 
 .expert .contenu .box{
     width: 250px;
@@ -298,6 +309,7 @@ section{
     font-size: 1em;
     font-weight: 600;
 }
+.texte
 
 .blanc .titre-texte{
     color: #fff;   
@@ -420,7 +432,7 @@ header.sticky .navbar li a:hover{
     border-bottom: 2px solid #fb911f;
 }
 
-@media (max-width: 991px) and (min-width: 200px) {
+@media (max-width: 1700px) and (min-width: 200px) {
 header,.header.sticky{
         position: 10px 20px;
     }
@@ -475,4 +487,4 @@ header,.header.sticky{
     header .sticky .menutoggle{
         filter: invert;
     }
-}
+}}
